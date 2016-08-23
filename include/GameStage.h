@@ -1,0 +1,18 @@
+#ifndef GameStage_h
+#define GameStage_h
+
+enum class GameStage
+{
+    PLAYERS_REGISTRATION,
+    INFRASTRUCTURES_REGISTRATION,
+    PUT_INITIAL_INFRASTRUCTURES,
+    STAGE1_DICE,
+    STAGE1_DROP_RESOURCES,
+    STAGE1_MOVE_ROBBER,
+    STAGE1_ROBBING,
+    STAGE2,
+    STAGE3,
+    FINAL_STAGE
+};
+
+#endif /* GameStage_h */
