@@ -1,7 +1,7 @@
 SRC_DIR = src
 INCLUDE_DIR = include
-INCLUDE_GAME_DIR = interface/include
-SRC_GAME_DIR = interface/src
+INCLUDE_GAME_DIR = game/include
+SRC_GAME_DIR = game/src
 
 all: obj app
 
